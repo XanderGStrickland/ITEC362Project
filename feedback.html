@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-6SJ4YSCD20"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-6SJ4YSCD20');
 </script>
     <meta charset="UTF-8">
@@ -15,8 +13,9 @@
     <meta name="keywords" content="HTML, CSS, Javascript">
     <meta name="author" content="Xander Strickland">
     <meta name="viewport" content="width=device-widthe, inital-scale=1">
-
     <title>Feedback Form</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -30,17 +29,14 @@
             </ul>
         </nav>
     </header>
-    <h1>Feedback Form</h1>
+    <h2>Feedback Form</h2>
     <form action="submit_feedback.php" method="POST">
         <label for="name">Name:</label><br>
         <input type="text" id="name" name="name" required><br><br>
-
         <label for="email">Email:</label><br>
         <input type="email" id="email" name="email" required><br><br>
-
         <label for="number">Phone Number:</label><br>
         <input type="text" id="number" name="number" required><br><br>
-
         <fieldset>
             <legend>Feedback Type:</legend>
             <input type="checkbox" id="review" name="feedback_type" value="review" checked>
@@ -50,24 +46,20 @@
             <input type="checkbox" id="info_correction" name="feedback_type" value="information_correction">
             <label for="info_correction">Information Correction</label><br>
         </fieldset><br>
-
         <label for="feedback">Feedback:</label><br>
         <textarea id="feedback" name="feedback" rows="4" required></textarea><br><br>
-        
         <input type="submit" value="Submit">
     </form>
-   
     <footer>
-        <div>
+        <div class="footer-text">
             <p>Any issues with our page please contact us at (123) 456-7890 or <a href="mailto:ultimatepcguide@gmail.com">ultimatepcguide@gmail.com</a></p>
-            <button>Click here for the review form</button>
-            <div>
-                <img src="websiteimages/insta.png" alt="Instagram Logo" height="50" width="50">
-                <img src="websiteimages/mail.png" alt="Email Logo" height="50" width="50">
-                <img src="websiteimages/x.png" alt="Other Logo" height="50" width="50">
-            </div>
+            <p>&copy; 2024 Ultimate PC Guide</p>
         </div>
-        <p>&copy; 2024 Ultimate PC Guide</p>
-    </footer> 
+        <div class="footer-images">
+            <img src="websiteimages/insta.png" alt="Instagram Logo" height="50" width="50">
+            <img src="websiteimages/mail.png" alt="Email Logo" height="50" width="50">
+            <img src="websiteimages/x.png" alt="Other Logo" height="50" width="50">
+            <button>Click here for the review form</button> <!-- Button under images -->
+    </footer>     
 </body>
 </html>
