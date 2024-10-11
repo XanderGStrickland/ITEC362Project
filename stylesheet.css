@@ -1,0 +1,146 @@
+/* Global Styles */
+body {
+    background-color: #4B0082; /* Dark purple background */
+    font-family: 'Courgette', cursive; /* Change font to Courgette */
+    margin: 0;
+    padding: 0;
+    color: #1E90FF; /* Text color set to blue */
+}
+/* Header Styles */
+header {
+    display: flex;
+    flex-direction: column; /* Stacks logo/title and nav bar vertically */
+    align-items: flex-start; /* Aligns the logo and title to the top-left */
+    border-radius: 10px;
+    padding: 20px;
+}
+header h1 {
+    display: flex;
+    background-color: #E6E6FA; /* Lavender background */
+    align-items: center; /* Vertically aligns the logo and title */
+    font-size: 24px;
+    color: #1E90FF; /* Blue text */
+    margin-bottom: 10px; /* Space between title and nav */
+}
+header img {
+    margin-right: 10px; /* Space between logo and title text */
+}
+/* Navigation Bar Styles */
+nav {
+    width: 100%; /* Full width */
+    background-color: #E6E6FA; /* Lavender background */
+    border: 2px solid #1E90FF; /* Blue border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px 0; /* Padding inside the box */
+    margin-top: 10px; /* Space between the title and nav */
+}
+nav ul {
+    display: flex;
+    justify-content: center; /* Centers the nav items */
+    list-style-type: none; /* Removes bullet points */
+    padding: 0;
+}
+nav ul li {
+    margin: 0 15px; /* Space between each item */
+}
+nav ul li a {
+    text-decoration: none;
+    color: #1E90FF; /* Blue text */
+    font-size: 18px;
+}
+nav ul li a:hover {
+    color: #ffffff; /* Change text color on hover */
+}
+/* Main Section Styles */
+main {
+    padding: 20px;
+}
+h2, h3, p {
+    background-color: #E6E6FA; /* Lavender background */
+    color: #1E90FF;
+    border-radius: 10px;
+    padding: 10px 0;
+    font-size: 24px; /* h2 font size */
+}
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px;
+    margin-top: 20px;
+}
+table th, table td {
+    background-color: #E6E6FA; /* Lavender background */
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    color: #1E90FF;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* Footer Styles */
+footer {
+    display: flex;
+    justify-content: space-between; /* Space between text and images */
+    align-items: flex-start; /* Align items at the top */
+    background-color: #E6E6FA; /* Lavender background */
+    border-radius: 10px;
+    padding: 20px;
+    border-top: 2px solid #1E90FF; /* Blue border */
+    position: relative;
+}
+footer div {
+    display: flex;
+    flex-direction: row; /* Stack text and button vertically */
+}
+footer p {
+    margin: 0;
+    color: #1E90FF;
+    font-size: 20px;
+}
+/* Footer button */
+footer button {
+    margin-top: 10px; /* Space between text and button */
+    padding: 10px;
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer button:hover {
+    background-color: #4682B4; /* Darker blue on hover */
+}
+footer img {
+    margin-left: 10px;
+}
+footer .footer-content {
+    flex-grow: 1;
+}
+/* Feedback Form Styles */
+form {
+    background-color: #E6E6FA;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#feedback {
+    font-style: italic;
+    color: #1E90FF;
+}
+.success {
+    color: green;
+}
+.error {
+    color: red;
+}
+/* Box Model Example */
+.box {
+    width: 300px;
+    height: 150px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #E6E6FA;
+}
