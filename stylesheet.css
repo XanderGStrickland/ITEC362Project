@@ -56,12 +56,6 @@ nav ul li a:hover {
 main {
     padding: 20px;
 }
-div {
-     background-color: #E6E6FA; /* Lavender background */
-    color: #1E90FF;
-    border-radius: 10px;
-    padding: 10px 0;
-}
 h2, h3, p {
     background-color: #E6E6FA; /* Lavender background */
     color: #1E90FF;
