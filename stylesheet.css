@@ -63,13 +63,6 @@ main div {
     padding: 10px 0; /* Padding for content */
     font-size: 20px; /* Font size for h2 elements */
 }
-h2, h3, p {
-    background-color: #E6E6FA; /* Lavender background */
-    color: #1E90FF;
-    border-radius: 10px;
-    padding: 10px 0;
-    font-size: 24px; /* h2 font size */
-}
 /* Table Styles */
 table {
     width: 100%;
