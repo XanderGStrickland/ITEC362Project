@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="stylesheet.css">
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
 </head>
+<main>
 <body>
     <header>
         <h1><img src="websiteimages/logo2.png" alt="Ultimate PC Guide Logo" height="100" width="100" > Ultimate PC Guide</h1>
@@ -29,7 +30,9 @@
             </ul>
         </nav>
     </header>
+    <div>
     <h2>Feedback Form</h2>
+    </div>
     <form action="submit_feedback.php" method="POST">
         <label for="name">Name:</label><br>
         <input type="text" id="name" name="name" required><br><br>
@@ -50,6 +53,7 @@
         <textarea id="feedback" name="feedback" rows="4" required></textarea><br><br>
         <input type="submit" value="Submit">
     </form>
+</main>
     <footer>
         <div class="footer-text">
             <p>Any issues with our page please contact us at (123) 456-7890 or <a href="mailto:ultimatepcguide@gmail.com">ultimatepcguide@gmail.com</a></p>
