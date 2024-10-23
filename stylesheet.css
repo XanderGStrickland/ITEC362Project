@@ -56,13 +56,6 @@ nav ul li a:hover {
 main {
     padding: 20px;
 }
-h3 {
-    background-color: #E6E6FA; /* Lavender background for headings and paragraphs */
-    color: #000000; /* Blue text color for headings and paragraphs */
-    border-radius: 10px; /* Rounded corners */
-    padding: 10px 0; /* Padding for content */
-    font-size: 20px; /* Font size for h3 elements */
-}
 main div {
     background-color: #E6E6FA; /* Lavender background for headings and paragraphs */
     color: #000000; /* Blue text color for headings and paragraphs */
