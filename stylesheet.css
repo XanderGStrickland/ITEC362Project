@@ -6,6 +6,7 @@ body {
     padding: 0;
     color: #000000; /* Text color set to blue */
 }
+
 /* Header Styles */
 header {
     display: flex;
@@ -23,9 +24,11 @@ header h1 {
     color: #000000; /* Blue text */
     margin-bottom: 10px; /* Space between title and nav */
 }
+
 header img {
     margin-right: 10px; /* Space between logo and title text */
 }
+
 /* Navigation Bar Styles */
 nav {
     width: 100%; /* Full width */
@@ -35,27 +38,33 @@ nav {
     padding: 10px 0; /* Padding inside the box */
     margin-top: 10px; /* Space between the title and nav */
 }
+
 nav ul {
     display: flex;
     justify-content: center; /* Centers the nav items */
     list-style-type: none; /* Removes bullet points */
     padding: 0;
 }
+
 nav ul li {
     margin: 0 15px; /* Space between each item */
 }
+
 nav ul li a {
     text-decoration: none;
     color: #000000; /* Blue text */
     font-size: 18px;
 }
+
 nav ul li a:hover {
     color: #ffffff; /* Change text color on hover */
 }
+
 /* Main Section Styles */
 main {
     padding: 20px;
 }
+
 main div {
     background-color: #E6E6FA; /* Lavender background for headings and paragraphs */
     color: #000000; /* Blue text color for headings and paragraphs */
@@ -63,6 +72,7 @@ main div {
     padding: 10px 0; /* Padding for content */
     font-size: 20px; /* Font size for h2 elements */
 }
+
 /* Table Styles */
 table {
     width: 100%;
@@ -70,6 +80,7 @@ table {
     border-spacing: 10px;
     margin-top: 20px;
 }
+
 table th, table td {
     background-color: #E6E6FA; /* Lavender background */
     border-radius: 10px;
@@ -79,11 +90,7 @@ table th, table td {
     text-align: left;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-.diagram-title {
-    background-color: #E6E6FA; /* Lavender background */
-    padding: 10px; /* Optional */
-    border-radius: 5px; /* Optional */
-}
+
 /* Footer Styles */
 footer {
     display: flex;
@@ -95,15 +102,18 @@ footer {
     border-top: 2px solid #1E90FF; /* Blue border */
     position: relative;
 }
+
 footer div {
     display: flex;
     flex-direction: row; /* Stack text and button vertically */
 }
+
 footer p {
     margin: 0;
     color: #000000;
     font-size: 20px;
 }
+
 /* Footer button */
 footer button {
     margin-top: 10px; /* Space between text and button */
@@ -114,15 +124,19 @@ footer button {
     border-radius: 5px;
     cursor: pointer;
 }
+
 footer button:hover {
     background-color: #006400; /* Darker blue on hover */
 }
+
 footer img {
     margin-left: 10px;
 }
+
 footer .footer-content {
     flex-grow: 1;
 }
+
 /* Feedback Form Styles */
 form {
     background-color: #E6E6FA;
@@ -131,16 +145,20 @@ form {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 #feedback {
     font-style: italic;
     color: #000000;
 }
+
 .success {
     color: green;
 }
+
 .error {
     color: red;
 }
+
 /* Box Model Example */
 .box {
     width: 300px;
@@ -149,4 +167,11 @@ form {
     padding: 10px;
     border: 1px solid #ccc;
     background-color: #E6E6FA;
+}
+
+/* Specific styles for the Motherboard Diagram heading */
+.diagram-title {
+    background-color: #E6E6FA; /* Lavender background */
+    padding: 10px; /* Optional: Add padding for better spacing */
+    border-radius: 5px; /* Optional: Rounded corners */
 }
