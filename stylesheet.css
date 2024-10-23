@@ -169,9 +169,8 @@ form {
     background-color: #E6E6FA;
 }
 
-/* Specific styles for the Motherboard Diagram heading */
 .diagram-title {
     background-color: #E6E6FA; /* Lavender background */
-    padding: 10px; /* Optional: Add padding for better spacing */
-    border-radius: 5px; /* Optional: Rounded corners */
+    padding: 10px; /* Add padding for better spacing */
+    border-radius: 5px; /* Rounded corners */
 }
