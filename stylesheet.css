@@ -79,6 +79,11 @@ table th, table td {
     text-align: left;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+.diagram-title {
+    background-color: #E6E6FA; /* Lavender background */
+    padding: 10px; /* Optional */
+    border-radius: 5px; /* Optional */
+}
 /* Footer Styles */
 footer {
     display: flex;
