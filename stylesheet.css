@@ -103,14 +103,14 @@ footer p {
 footer button {
     margin-top: 10px; /* Space between text and button */
     padding: 10px;
-    background-color: #000000;
+    background-color: #008000;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 footer button:hover {
-    background-color: #4682B4; /* Darker blue on hover */
+    background-color: #006400; /* Darker blue on hover */
 }
 footer img {
     margin-left: 10px;
