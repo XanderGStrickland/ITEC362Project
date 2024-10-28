@@ -72,6 +72,11 @@ main div {
     padding: 10px 0; /* Padding for content */
     font-size: 20px; /* Font size for h2 elements */
 }
+.full-screen-img {
+    width: 100vw;  /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    object-fit: cover;  /* Ensures the image covers the screen without distortion */
+}
 
 /* Table Styles */
 table {
