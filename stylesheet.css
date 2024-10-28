@@ -169,8 +169,19 @@ form {
     background-color: #E6E6FA; /* Lavender background */
 }
 
-.motherboard {
+.diagram-container {
     background-color: #E6E6FA; /* Lavender background */
-    padding: 10px; /* Consistent padding */
-    border-radius: 5px; /* Rounded corners */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding around the content */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align the items */
 }
+
+.diagram-container img {
+    width: 100%; /* Make the image take the full width of its container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners for the image */
+    object-fit: cover; /* Ensures the image covers the container */
+}
+
