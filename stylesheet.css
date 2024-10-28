@@ -75,7 +75,7 @@ main div {
 .full-screen-img {
     width: 100vw;  /* Full viewport width */
     height: 100vh; /* Full viewport height */
-    object-fit: cover;  /* Ensures the image covers the screen without distortion */
+    padding: 10px 0;
 }
 
 /* Table Styles */
